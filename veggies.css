@@ -5,7 +5,7 @@ html {
 }
 .navbar-inverse { background-color: #5E2241;
     border-color: #5E2241 }
-.navbar-brand, .navbar-inverse { color: #CEAEBF }
+.navbar-inverse .navbar-brand { color: #CEAEBF }
 .navbar-inverse .btn { background-color: #CEAEBF;
     color: #5E2241}
 .jumbotron {margin-top: 15px;
@@ -13,7 +13,12 @@ html {
     color: #000;
     text-align: center;
     text-shadow: 3px 3px 4px #FBE7D4;
-    background-image: url(images/veggies-background.jpg)}
+    background-image: url(images/veggies-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover}
+h1 small {color: #1F5829 }
+.jumbotron p {font-size: 1.3em;
+    font-weight: bold}
 body {
     /* Move down content because of fixed navbar at top */
     padding-top: 50px;
