@@ -27,11 +27,14 @@ body {
     background-image: url(images/tartan.png);
     background-color: #A2C0A7
 }
+
 #main {background-color: #FBE7D4;
     padding-bottom: 25px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px}
 #main .row {margin-bottom: 15px }
+#main .row ul { padding-left: 0;
+    }
 footer {
     position: fixed;
     bottom: 0;
